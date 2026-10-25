@@ -1,0 +1,86 @@
+dimension,code,label
+age_group,TOTAL,Total
+age_group,Y11-15,From 11 to 15 years
+age_group,Y12-17,From 12 to 17 years
+age_group,Y15-19,From 15 to 19 years
+age_group,Y15-24,From 15 to 24 years
+age_group,Y15-29,From 15 to 29 years
+age_group,Y16-19,From 16 to 19 years
+age_group,Y16-24,From 16 to 24 years
+age_group,Y16-29,From 16 to 29 years
+age_group,Y16-64,From 16 to 64 years
+age_group,Y18-24,From 18 to 24 years
+age_group,Y18-64,From 18 to 64 years
+age_group,Y20-24,From 20 to 24 years
+age_group,Y20-29,From 20 to 29 years
+age_group,Y25-29,From 25 to 29 years
+age_group,Y25-49,From 25 to 49 years
+age_group,Y25-54,From 25 to 54 years
+age_group,Y50-64,From 50 to 64 years
+age_group,Y55-64,From 55 to 64 years
+age_group,Y6-10,From 6 to 10 years
+age_group,Y6-11,From 6 to 11 years
+age_group,Y65-74,From 65 to 74 years
+age_group,Y_GE16,16 years or over
+age_group,Y_GE18,18 years or over
+age_group,Y_GE60,60 years or over
+age_group,Y_GE65,65 years or over
+age_group,Y_GE75,75 years or over
+age_group,Y_LT16,Less than 16 years
+age_group,Y_LT18,Less than 18 years
+age_group,Y_LT6,Less than 6 years
+age_group,Y_LT60,Less than 60 years
+age_group,Y_LT65,Less than 65 years
+age_group,Y_LT75,Less than 75 years
+country,AL,Albania
+country,AT,Austria
+country,BE,Belgium
+country,BG,Bulgaria
+country,CH,Switzerland
+country,CY,Cyprus
+country,CZ,Czechia
+country,DE,Germany
+country,DK,Denmark
+country,EA,"Euro area (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023, EA21-2026)"
+country,EA21,Euro area - 21 countries (from 2026)
+country,EE,Estonia
+country,EL,Greece
+country,ES,Spain
+country,EU,"European Union (EU6-1958, EU9-1973, EU10-1981, EU12-1986, EU15-1995, EU25-2004, EU27-2007, EU28-2013, EU27-2020)"
+country,EU27_2020,European Union - 27 countries (from 2020)
+country,FI,Finland
+country,FR,France
+country,HR,Croatia
+country,HU,Hungary
+country,IE,Ireland
+country,IS,Iceland
+country,IT,Italy
+country,LT,Lithuania
+country,LU,Luxembourg
+country,LV,Latvia
+country,ME,Montenegro
+country,MK,North Macedonia
+country,MT,Malta
+country,NL,Netherlands
+country,NO,Norway
+country,PL,Poland
+country,PT,Portugal
+country,RO,Romania
+country,RS,Serbia
+country,SE,Sweden
+country,SI,Slovenia
+country,SK,Slovakia
+country,TR,Turkiye
+country,UK,United Kingdom
+country,XK,Kosovo*
+flag,b,break in time series
+flag,e,estimated
+flag,p,provisional
+flag,u,low reliability
+poverty_line,B_40,Below 40%
+poverty_line,B_50,Below 50%
+poverty_line,B_60,Below 60%
+poverty_line,B_70,Below 70%
+sex,F,Females
+sex,M,Males
+sex,T,Total

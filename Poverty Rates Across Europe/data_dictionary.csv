@@ -1,0 +1,34 @@
+file,column,type,description
+european_poverty_rates_quickstart.csv,country_code,string,"Eurostat country code (e.g. DE, FR; EL = Greece, UK = United Kingdom; EU27_2020 = European Union)"
+european_poverty_rates_quickstart.csv,country_iso2,string,"ISO 3166-1 alpha-2 code for joining with other data (GR, GB, ...); empty for country groups"
+european_poverty_rates_quickstart.csv,country,string,Country name
+european_poverty_rates_quickstart.csv,period,string,"Period as published (YYYY, e.g. 2024)"
+european_poverty_rates_quickstart.csv,date,string,"First day of the period (YYYY-MM-DD), handy for plotting"
+european_poverty_rates_quickstart.csv,year,integer,Calendar year
+european_poverty_rates_quickstart.csv,poverty_rate_pct,number,At-risk-of-poverty rate: share of all people below 60% of the national median income (%)
+european_poverty_rates_quickstart.csv,poverty_rate_men_pct,number,"Same, men (%)"
+european_poverty_rates_quickstart.csv,poverty_rate_women_pct,number,"Same, women (%)"
+european_poverty_rates_quickstart.csv,poverty_rate_children_pct,number,"Same, children under 18 (%)"
+european_poverty_rates_quickstart.csv,poverty_rate_age_18_24_pct,number,"Same, people aged 18-24 (%)"
+european_poverty_rates_quickstart.csv,poverty_rate_working_age_pct,number,"Same, people aged 18-64 (%)"
+european_poverty_rates_quickstart.csv,poverty_rate_age_65_plus_pct,number,"Same, people aged 65 and over (%)"
+european_poverty_rates_quickstart.csv,poverty_rate_40_pct,number,Share of all people below 40% of the national median income (severe poverty line) (%)
+european_poverty_rates_quickstart.csv,poverty_rate_50_pct,number,Share of all people below 50% of the national median income (%)
+european_poverty_rates_quickstart.csv,poverty_rate_70_pct,number,Share of all people below 70% of the national median income (%)
+european_poverty_rates.csv / .parquet,country_code,string,"Eurostat country code (e.g. DE, FR; EL = Greece, UK = United Kingdom; EU27_2020 = European Union)"
+european_poverty_rates.csv / .parquet,country_iso2,string,"ISO 3166-1 alpha-2 code for joining with other data (GR, GB, ...); empty for country groups"
+european_poverty_rates.csv / .parquet,country,string,Country or country-group name
+european_poverty_rates.csv / .parquet,is_country_group,boolean,True for groups such as EU27_2020 or euro area aggregates (exclude them when comparing countries)
+european_poverty_rates.csv / .parquet,poverty_line_code,string,Poverty line (share of the national median income) code (see codes.csv)
+european_poverty_rates.csv / .parquet,poverty_line,string,Poverty line (share of the national median income) (label)
+european_poverty_rates.csv / .parquet,sex_code,string,Sex code (see codes.csv)
+european_poverty_rates.csv / .parquet,sex,string,Sex (label)
+european_poverty_rates.csv / .parquet,age_group_code,string,Age group code (see codes.csv)
+european_poverty_rates.csv / .parquet,age_group,string,Age group (label)
+european_poverty_rates.csv / .parquet,period,string,"Period as published (YYYY, e.g. 2024)"
+european_poverty_rates.csv / .parquet,date,string,"First day of the period (YYYY-MM-DD), handy for plotting"
+european_poverty_rates.csv / .parquet,year,integer,Calendar year
+european_poverty_rates.csv / .parquet,poverty_rate_pct,number,"Share (%) of the people of the group whose equivalised disposable income is below the poverty line (poverty_line_code B_60 = below 60% of the national median, the official at-risk-of-poverty rate)"
+european_poverty_rates.csv / .parquet,flag,string,Eurostat status flag(s) for the value (empty = normal)
+european_poverty_rates.csv / .parquet,flag_meaning,string,Plain-English meaning of the flag
+codes.csv,dimension / code / label,string,Lookup of every code used in the files
